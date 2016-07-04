@@ -1,0 +1,5 @@
+Exercise Answers
+
+all the answers to this exercise are in the same folder  Deck
+
+P.S. The Card class also had to be created

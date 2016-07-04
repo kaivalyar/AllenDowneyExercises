@@ -1,0 +1,92 @@
+Exercise Answers
+
+7.0 [THIS WAS AN EXTRA 'CHALLENGE' QUESTION]
+   THIS WAS ATTEMPTED IN THE FILE Challenge.java
+-------------------------------------------------------------------------------------------------------------------------
+
+7.1
+
+   a) THIS QUESTION WAS ATTEMPTED IN THE FILE Test.java
+   b) 
+                                         |        boolean   |       char     |       int     |      String
+-----------------------------------------|------------------|----------------|---------------|----------------------------
+                 [yes or no      ]       |         no       |       no       |       no      |       yes
+         boolean [add. or concat.]       |                  |                |               |  concatenation
+                 [return type    ]       |                  |                |               |      String
+-----------------------------------------|------------------|----------------|---------------|----------------------------
+                 [yes or no      ]       |         no       |       yes      |      yes      |       yes
+         char    [add. or concat.]       |                  |  concatenation |       *       |  concatenation
+                 [return type    ]       |                  |       char     |      char     |      String
+-----------------------------------------|------------------|----------------|---------------|----------------------------
+                 [yes or no      ]       |         no       |       no       |       yes     |       yes
+         int     [add. or concat.]       |                  |       *        |     addition  |  concatenation
+                 [return type    ]       |                  |      char      |       int     |      String
+-----------------------------------------|------------------|----------------|---------------|----------------------------
+                 [yes or no      ]       |        yes       |       yes      |      yes      |       yes
+         String  [add. or concat.]       |    concatenation |  concatenation | concatenation |  concatenation
+                 [return type    ]       |       String     |      String    |     String    |      String
+-----------------------------------------|------------------|----------------|---------------|----------------------------
+
+         * : chars, and ascii values need to be understood to learn about these
+
+   d) 
+      THE ERROR:
+         possible loss of precision
+         found   : int
+         required: char
+               ch = ch +1;
+                       ^
+      ++ increased x to y, ie. the next ascii value
+-------------------------------------------------------------------------------------------------------------------------
+
+7.2
+      OUTPUT:
+      4  n
+      3  e
+      2  l
+      1  l
+      0  A
+      nellA
+
+      So, bing returns the word in reverse, and prints the index and char for char in the String, starting from the right
+-------------------------------------------------------------------------------------------------------------------------
+
+7.3
+      The program actually just adds the digits of the 2 digit number, in a rather inefficient manner.
+
+      The actuall(corrected) could code is as follows:
+         int number = 17;
+         int lastDigit = 17%10;
+         int first Digit = 17/10;
+         System.out.println ("" + lastDigit + firstDigit);
+-------------------------------------------------------------------------------------------------------------------------
+
+7.4
+      Empiricall verification seems to lead to the following hypothesis:
+      "rarefy returns the binary value of a decimal int"
+-------------------------------------------------------------------------------------------------------------------------
+
+7.5
+      THIS QUESTION WAS ATTEMPTED IN THE FILE Palindrome.java
+-------------------------------------------------------------------------------------------------------------------------
+
+7.6
+   a) THE STRATEGY:
+         1.    Extract char 0, compare with rest.
+         2. i) if char 0 comes first, recurse with rest (step1)
+            ii)if rest is first, return false 
+
+      THIS QUESTION WAS ATTEMPTED IN THE FILE Abecedarian.java
+-------------------------------------------------------------------------------------------------------------------------
+
+7.7
+   THIS QUESTION WAS ATTEMPTED IN THE FILE   Dupledrome.java
+-------------------------------------------------------------------------------------------------------------------------
+
+7.8
+   THIS QUESTION WAS ATTEMPTED IN THE FILE Name.java
+-------------------------------------------------------------------------------------------------------------------------
+
+7.9
+   THIS QUESTION WAS ATTEMPTED IN THE FILE Code.java
+-------------------------------------------------------------------------------------------------------------------------

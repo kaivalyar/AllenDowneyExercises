@@ -1,0 +1,62 @@
+Exercise Answers
+
+
+3.1
+   main [   [   ]]
+
+-------------------------------------------------------------------------------------------------------------------------
+
+3.2
+   a) No, I wug.
+      You wugga wug.
+      I wug.
+   
+   b)
+        main [   [   ]]
+        zoop [   [   ]]
+      baffle [   [   ]]
+        ping [   [   ]]
+-------------------------------------------------------------------------------------------------------------------------
+
+3.3
+
+   a)  public static void zoo1 (int x, String y, String z)
+   b)  zoo1 (11, "I never had a pet", "street: x")
+-------------------------------------------------------------------------------------------------------------------------
+
+3.4 THE PROGRAM WAS NAMED PrintDate.java 
+
+   NOTE: This exercise requires writing methods and testing them. The methods are written here along with the programs output. The exercise doesn't require printEuropean to be tested but it is tested and the finall output of the 2 methods is at the end of the exercise.
+
+   a)
+      public static void printAmerican (String day, String month, int date, int year){
+         System.out.println (day + ", " + month + " " + date + ", " + year);
+      }
+
+   b) The out put of the method was:
+      Wedneseday, October 13, 2010
+   
+   c)
+      public static void printEuropean (String day, int date, String month, int year){
+         System.out.println (day + " " + date + " " + month + ", " + year);
+      }
+   THE FINAL OUT PUT WAS CHECKED:
+   
+   Amarican Format:
+   Wedneseday, October 13, 2010
+   European Format:
+   Wedneseday 13 October, 2010
+-------------------------------------------------------------------------------------------------------------------------
+
+   3.5 THE PROGRAM WAS NAMED Multadd.java
+
+   a) class Multadd{
+      }
+
+   b)  
+      public static void multadd ( double a, double b, double c){
+         System.out.println ( a*b + c );
+      }
+
+   c) The output was 5.0
+-------------------------------------------------------------------------------------------------------------------------

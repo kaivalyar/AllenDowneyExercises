@@ -1,0 +1,26 @@
+Exercise Answers
+
+13.1
+
+folder Complex
+
+13.2
+
+folder Complex
+
+13.3
+
+
+folder Complex
+
+13.4
+
+a) folder Rational
+
+b) The mistakes were made, and then deleted to make sure the program runs properly at the end
+
+c)
+
+   Object methods                                  Class methods
+     +concise                                        -concise
+     modifying seems more naturl here                pure functions seem more natural here

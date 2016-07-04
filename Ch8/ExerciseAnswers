@@ -1,0 +1,73 @@
+Exercise Answers
+
+8.1
+a)
+   main [x [5]   blank # --->  [ x[1] y[2] ]   ]
+   fred [[-5- 12] p [blank]]
+
+b)
+   15
+   5
+   1
+   2
+-------------------------------------------------------------------------------------------------------------------------
+
+8.2
+a)
+   main [blank #---> [ x[5] y[8] ] ]
+        [rect #---> [ x[0] y[2] width[4] height[4] ] ]
+        [center #---> [ x[] y[] ] ]
+
+   findCenter [ box #---> [ x[0] y[2] width[4] height[4] ] ]
+              [ x[2] y[4] ]
+
+   main [blank #---> [ x[5] y[8] ] ]
+        [rect #---> [ x[0] y[2] width[4] height[4] ] ]
+        [center #---> [ x[2] y[4] ] ]
+        [dist #]
+
+   distance [p1 #---> [x[2] y[4] ] ]
+            [p2 #---> [x[5] y[8] ] ]
+            [dx[-3] dy[-4] ]
+
+b)
+   5.0
+-------------------------------------------------------------------------------------------------------------------------
+
+8.3
+a)
+   (5,8)
+   (5,8)
+
+b)
+   main [box1 #---> [x[2] y[4] width[7] height[9] ] ]
+        [p1 #---> [x[] y[] ] ]
+
+   findCenter [box #---> [x[2] y[4] width[7] height[9] ] ]
+              [x[5] y[8] ]
+
+   main [box1 #---> [x[2] y[4] width[7] height[9] ] ]
+        [p1 #---> [x[5] y[7] ] ]
+        [box1 #---> [x[1] y[3] width[9] height[11] ] ]
+        [p2 #---> [x[] y[] ] ]
+
+   findCenter [box1 #---> [x[1] y[3] width[9] height[11] ] ]
+              [x[5] y[8] ]
+
+   main [box1 #---> [x[1] y[3] width[9] height[11] ] ]
+        [x[5] y[8] ]
+        [x[5] y[8] ]
+
+c)
+   No, p1 and p2 don't have to contain the same value, hence they can't have common memory.
+-------------------------------------------------------------------------------------------------------------------------
+
+8.4
+   THIS QUESTION WAS ATTEMPTED IN THE FILE Big.java
+-------------------------------------------------------------------------------------------------------------------------
+
+8.5
+   THIS QUESTION WAS ALSO ATTEMPTED IN THE FILE Big.java
+-------------------------------------------------------------------------------------------------------------------------
+
+note: '#' is the 'dot' for showing a refernce to an object

@@ -1,0 +1,25 @@
+Exercise Answers
+
+11.0
+
+folder Card: compareCard
+
+11.1
+
+folder Card: buildDeck
+
+11.2
+
+folder Card: handScore
+
+11.3
+
+folder Card: parseCard
+
+11.4
+
+folder Card: suitHist
+
+11.5
+
+folder Card: isFlush

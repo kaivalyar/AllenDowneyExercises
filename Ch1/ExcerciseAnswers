@@ -1,0 +1,76 @@
+1.1
+
+   a)Statement:
+   	1. A part of a program that specifies an action that will be performed when the program runs.
+   	2. Compiled by the compiler.
+   	3. Must follow java syntax.
+
+     Comment:
+	1. A part of a program that contains information about the program, 
+	2. Has no effect when the program runs (skipped by the compiler).
+	3. Might not follow java syntax.
+
+
+   b)A portable program is a program which can run over multiple processors.
+
+
+   c)An executable, or the object code (the byte code in java) is the source code upon compiling.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+1.2
+   Refer to Hello.java in folder Hello
+-------------------------------------------------------------------------------------------------------------------------
+
+
+1.3
+   This exercise was done using the same code under the class and filename-Kaivalya(.java). So, pls. refer to Kaivalya.java in folder Kaivalya.
+
+   a)action: the squiggly brace after the classname was removed
+     result: Error: '{' expected
+   b)action: the last brace was removed
+     result: reached end of file while parsing '}'
+   c)action: replaced main with mian
+     result: run time error-Exception in thread "main" java.lang.NoSuchMethodError: main
+   d)action: the word static was removed
+     result: run time error-Exception in thread "main" java.lang.NoSuchMethodError: main
+   e)action: the word public was removed.
+     result: Run time error: Main method not public.
+   f)action: The words system were removed from both statements.
+     result: Kaivalya.java:5: cannot find symbol
+             symbol  : variable out
+             location: class Kaivalya
+                 out.println ("Hello, world.");
+                 ^
+             Kaivalya.java:6: cannot find symbol
+             symbol  : variable out
+             location: class Kaivalya
+                 out.println ("How are you, world?");
+                 ^
+             2 errors
+
+   g)action: prinln was replaced with pintln
+     result: Kaivalya.java:5: cannot find symbol
+             symbol  : method pintln(java.lang.String)
+            location: class java.io.PrintStream
+                System.out.pintln ("Hello, world.");
+                          ^
+            Kaivalya.java:6: cannot find symbol
+            symbol  : method pintln(java.lang.String)
+            location: class java.io.PrintStream
+                System.out.pintln ("How are you, world?");
+                          ^
+            2 errors
+
+   h)action: println was replaced with print
+     result: Hello, world.How are you, world?kaivalyar@rvss23:~/public_html/Java/ADexercises/Ch1$ 
+
+   i)action: a parenthesis was deleted and added from and at random points.
+     result: Hello.java:4: not a statement
+                 System.out.println "Hello, world.")(;
+                           ^
+             Hello.java:4: ';' expected
+                 System.out.println "Hello, world.")(;
+                                   ^
+             2 errors
+-------------------------------------------------------------------------------------------------------------------------

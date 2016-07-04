@@ -1,0 +1,7 @@
+*.class
+*.ctxt
+*~
+*.pkg
+*.bluej
+*/doc/*
+*/*/doc/*

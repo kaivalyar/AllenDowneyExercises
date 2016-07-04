@@ -1,0 +1,30 @@
+Exercise Answers
+
+   2.1
+     This exercise was attempted and the source code for the final program (e) can be seen in the file 'Date.java' in this folder.
+
+    The output was:
+      American format:
+      Friday, October 1, 2010
+      European Format:
+      Friday 1 October, 2010
+----------------------------------------------------------------------------------------------------------------------------
+
+   2.2
+     This exercise was attempted and the source code for the final program (f) can be seen in the file 'Time.java' in this folder.
+
+      The output for the no. of seconds elapsed since midnight was:
+      (values: hour=14, minute=51, second=59)
+      53519
+
+      The output for the no. of seconds left for midnight was:
+      (the same values were used)
+      39119
+
+      The output for the percentage of the day that has passed was:
+      61%
+
+      The values were then changed, and the percentage of the day elapsed became:
+      (values: hour=10, minute=30, second=30)
+      43
+----------------------------------------------------------------------------------------------------------------------------

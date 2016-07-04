@@ -1,0 +1,38 @@
+Exercise Answers
+
+4.1
+     main[         ]
+   nLines[ n   [4] ]
+   nLines[ n   [3] ]
+   nLines[ n   [2] ]
+   nLines[ n   [1] ]
+   nLines[ n   [0] ]
+-------------------------------------------------------------------------------------------------------------------------
+
+4.2 THIS METHOD WAS WRITTEN IN THE FILE IsTriangle.java
+    The output was:
+    true
+-------------------------------------------------------------------------------------------------------------------------
+
+4.4 THIS PROGRAM IS IN THE FILE BottlesOfBeer.java
+    THE OUTPUT IS IN THE FILE BottlesOfBeerOutput
+-------------------------------------------------------------------------------------------------------------------------
+
+4.5
+
+   The output of this program looks like:
+   just for
+   any not more
+   It's breakfast
+   !
+-------------------------------------------------------------------------------------------------------------------------
+
+4.6 THIS PROGRAM IS IN THE FILE Fermat.java
+    The output was:
+
+    No, that doesn't work.
+    No, that doesn't work.
+    No, that doesn't work.
+    Pls. input a power greater than 2, here 3 will be chosen
+    No, that doesn't work.
+-------------------------------------------------------------------------------------------------------------------------
