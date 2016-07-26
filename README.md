@@ -16,6 +16,10 @@ The programs can all be executed via BlueJ or the Terminal. Follow the instructi
 
 Since this project consists of exercise solutions, the problem sets themselves act as documentaion. The problems solved are all from the end of chapter exercises in the textbook.
 
+## Contact
+
+If you have any questions, suggestions, or feedback, please feel free to write to [kaivalyaraw@gmail.com](mailto:kaivalyaraw@gmail.com). I look forward to hearing from you.
+
 ## License
 
 **This project is released under and protected by the MIT License**
