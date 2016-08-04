@@ -1,12 +1,14 @@
 # How to Think Like a Computer Scientist - Exercise Solutions
 
-My solutions to the exercises presented in Allen Downey's textbook - **How to Think Like a Computer Scientist, Java version 4.0**.
+My solutions to the exercises presented in Allen Downey's textbook - **How to Think Like a Computer Scientist, Java version 4.1**.
 
 ## Synopsis
 
-_How to Think Like a Computer Scientist_ is an excellent introductory computer science textbook by [**Allen Downey**](http://www.allendowney.com/wp/). Although intitially written for Java, it has since been converted to multiple languages, including C, C++, and Python. The later Java versions have been renamed to _Think Java_. This project contains solutions for the version 4.0 of the book, a copy of which can be found in this repository.
+_How to Think Like a Computer Scientist_ is an excellent introductory computer science textbook by [**Allen Downey**](http://www.allendowney.com/wp/). Although intitially written for Java, it has since been converted to multiple languages, including C, C++, and Python. The later Java versions have been renamed to _Think Java_. This project contains solutions for the version 4.1 of the book.
 
 The code in this project was written over a span of 3 years, from 2011 to 2014, as part of school assignments. It is presented here unchanged, in its initial form. Development was done via gedit (chapters 1 - 9) and BlueJ (chapters 10 - 18). The exercise solutions for each chapter are in a file named either `ExerciseAnswers` or `README.txt`, with other files providing the Java code.
+
+**Textbook Version issue**: The version of _How to Think Like a Computer Scientist_ available in this repository, is 4.0 - I can't find a softcopy of version 4.1. The differences between the two versions are minor, and can be ignored for the purposes of this repository. That being said however, if you wish to contribute the correct version of the book, please feel free to do so by submitting a pull request, or by [contacting me](#contact).
 
 ## Set Up
 
